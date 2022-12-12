@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+}
+hr {
+  width: 50%;
+  margin: auto;
+}
+
+.my-login-form {
+  margin: auto;
+  padding: 7% 15%;
+}
+
+.form-floating {
+  margin: auto;
+}
+
+.form-heading {
+  width: 50%;
+  margin: 0 auto 40px auto;
+  line-height: 1.5;
+}
+/* checkBox */
+.terms-box {
+  text-align: left;
+  width: 20%;
+  color: gray;
+  font-size: 16;
+  margin-left: 250px;
+}
+/* Images */
+.feed-illustration {
+  width: 20%;
+  position: fixed;
+  right: 1000px;
+  top: 400px;
+}
+.feed {
+  width: 20%;
+  position: fixed;
+  left: 1000px;
+  top: 200px;
+}
+
+/* Navbar */
+.container {
+  padding: 20px 15px;
+}
+
+.feed-container {
+    padding: 5% 5%; 
+}
+.list-group-item{
+    padding: 10px;
+}
+
+.list-group-item:hover{
+    background-color: lightblue;
+}
