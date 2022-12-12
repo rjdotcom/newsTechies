@@ -9,9 +9,10 @@ document.addEventListener("change", (event) => {
     fullName = form.querySelector("#name").value;
     email= form.querySelector("#email").value;
     password = form.querySelector("#password").value;
+    btnSubmit.addEventListener("click", createUser);
 })
 
-btnSubmit.addEventListener("click", createUser);
+
 
 
 function createUser() {
