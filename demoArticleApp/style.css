@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 60%;
+  margin: auto;
+}
+
+.article {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.article , .imgContent{
+  width: 100%;
+}
+.article , .imgContent:hover{
+  cursor: pointer;
+}
+
+.article , .imgContent img{ 
+  width:100%;
+}
+
+.article .author{
+  font-size: 1rem;
+  font-weight: 'bold';
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-family:'calibri'
+}
+
+.article .title{
+  font-size: 1.5rem;
+  font-weight: 'bold';
+  font-family: 'calibri';
+  margin-bottom: 8px;
+}
+
+.article .content{
+  font-size: 1rem;
+  font-family: 'calibri';
+}
+
